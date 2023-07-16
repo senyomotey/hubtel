@@ -1,41 +1,40 @@
-Hubtel Flutter Coding Challenge
+# Hubtel Flutter Coding Challenge
+
 This Flutter project is my submission for the Hubtel Flutter coding challenge.
 
-Getting Started
+## Getting Started
+
 To get started with this project, follow the steps below:
 
-Prerequisites
+## Prerequisites
+
 Flutter SDK: Make sure you have Flutter installed on your local machine. For installation instructions, refer to the Flutter documentation.
 
-Installation
+## Installation
+
 Clone the repository to your local machine:
-
-bash
-Copy code
 git clone <https://github.com/senyomotey/hubtel.git>
+
 Navigate to the project directory:
+```cd hubtel_flutter_challenge```
 
-bash
-Copy code
-cd hubtel_flutter_challenge
 Install the dependencies:
-
-Copy code
 flutter pub get
 
-Usage
+## Usage
+
 Connect your mobile device or start an emulator.
 
 Run the app:
+```flutter run```
 
-Copy code
-flutter run
+## Screenshots
 
-Screenshots
 ![Screenshot 1](screenshots/screenshot1.png)
 ![Screenshot 2](screenshots/screenshot1.png)
 
-Project Structure
+## Project Structure
+
 The project follows the standard Flutter project structure:
 
 lib/: Contains the main Dart code for the app.
@@ -46,17 +45,11 @@ assets/: Contains the static assets used in the app (images, fonts, etc.).
 test/: Contains the unit and widget tests for the app.
 pubspec.yaml: Defines the dependencies and assets used in the app.
 
-Testing
+## Testing
+
 The project includes unit tests and widget tests to ensure the functionality of the app. To run the tests, use the following command:
-
-bash
-Copy code
 flutter test
-Contributing
-[Include information on how others can contribute to your project if applicable]
 
-License
-[Specify the license under which the project is distributed (e.g., MIT License)]
+## Contact
 
-Contact
 For any inquiries or feedback regarding this project, please contact Senyo Motey at <moteysenyo@gmail.com>
