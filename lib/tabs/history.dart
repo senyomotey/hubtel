@@ -110,6 +110,7 @@ class HistoryTabState extends State<HistoryTab> {
               Expanded(
                 child: ListView(
                   shrinkWrap: true,
+                  padding: EdgeInsets.zero,
                   children: [
                     Row(
                       children: [
@@ -153,8 +154,8 @@ class HistoryTabState extends State<HistoryTab> {
                               children: [
                                 Image.asset(
                                   'assets/mtn.png',
-                                  height: 45,
-                                  width: 45,
+                                  height: 40,
+                                  width: 40,
                                 ),
                                 const SizedBox(width: 12.0),
                                 Expanded(
@@ -166,7 +167,12 @@ class HistoryTabState extends State<HistoryTab> {
                                           const Expanded(
                                             child: Text(
                                               'Emmanuel Rockson Kwabena Uncle Ebo',
-                                              style: TextStyle(color: Color(0xFF9CABB8), fontSize: 19.0),
+                                              maxLines: 2,
+                                              style: TextStyle(
+                                                color: Color(0xFF9CABB8),
+                                                fontSize: 18.0,
+                                                overflow: TextOverflow.ellipsis,
+                                              ),
                                             ),
                                           ),
                                           const SizedBox(width: 12.0),
@@ -183,10 +189,10 @@ class HistoryTabState extends State<HistoryTab> {
                                                   height: 17,
                                                   width: 17,
                                                 ),
-                                                const SizedBox(width: 12.0),
+                                                const SizedBox(width: 6.0),
                                                 const Text(
                                                   'Successful',
-                                                  style: TextStyle(color: Color(0xFF70E083), fontSize: 15.0),
+                                                  style: TextStyle(color: Color(0xFF70E083), fontSize: 12.0),
                                                 ),
                                               ],
                                             ),
@@ -225,8 +231,8 @@ class HistoryTabState extends State<HistoryTab> {
                               children: [
                                 Image.asset(
                                   'assets/user.png',
-                                  height: 35,
-                                  width: 35,
+                                  height: 30,
+                                  width: 30,
                                 ),
                                 const SizedBox(width: 12.0),
                                 const Text(
@@ -289,9 +295,9 @@ class HistoryTabState extends State<HistoryTab> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Image.asset(
-                                  'assets/mtn.png',
-                                  height: 45,
-                                  width: 45,
+                                  'assets/absa.png',
+                                  height: 40,
+                                  width: 40,
                                 ),
                                 const SizedBox(width: 12.0),
                                 Expanded(
@@ -302,28 +308,34 @@ class HistoryTabState extends State<HistoryTab> {
                                         children: [
                                           const Expanded(
                                             child: Text(
-                                              'Emmanuel Rockson Kwabena Uncle Ebo',
-                                              style: TextStyle(color: Color(0xFF9CABB8), fontSize: 19.0),
+                                              'Absa Bank',
+                                              maxLines: 2,
+                                              style: TextStyle(
+                                                color: Color(0xFF9CABB8),
+                                                fontSize: 18.0,
+                                                overflow: TextOverflow.ellipsis,
+                                              ),
                                             ),
                                           ),
                                           const SizedBox(width: 12.0),
                                           Container(
                                             padding: const EdgeInsets.only(top: 7, left: 10, right: 10, bottom: 7),
                                             decoration: BoxDecoration(
-                                              color: const Color(0xFFDBF7E0),
+                                              color: Color(0xFFFDB0AC),
                                               borderRadius: BorderRadius.circular(19),
                                             ),
                                             child: Row(
                                               children: [
                                                 Image.asset(
-                                                  'assets/successful.png',
+                                                  'assets/failed.png',
                                                   height: 17,
                                                   width: 17,
                                                 ),
-                                                const SizedBox(width: 12.0),
+                                                const SizedBox(width: 6.0),
                                                 const Text(
-                                                  'Successful',
-                                                  style: TextStyle(color: Color(0xFF70E083), fontSize: 15.0),
+                                                  'Failed',
+                                                  style:
+                                                      TextStyle(color: Color.fromARGB(255, 118, 1, 1), fontSize: 12.0),
                                                 ),
                                               ],
                                             ),
@@ -336,7 +348,7 @@ class HistoryTabState extends State<HistoryTab> {
                                           Expanded(
                                             child: Text(
                                               '024 123 4567',
-                                              style: TextStyle(color: Color(0xFF9EADBA), fontSize: 19.0),
+                                              style: TextStyle(color: Color(0xFF9EADBA), fontSize: 18.0),
                                             ),
                                           ),
                                           Text(
@@ -362,8 +374,8 @@ class HistoryTabState extends State<HistoryTab> {
                               children: [
                                 Image.asset(
                                   'assets/user.png',
-                                  height: 35,
-                                  width: 35,
+                                  height: 30,
+                                  width: 30,
                                 ),
                                 const SizedBox(width: 12.0),
                                 const Text(

@@ -71,10 +71,11 @@ class HomeScreenState extends State<HomeScreen> {
         onTap: () {},
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
               margin: const EdgeInsets.only(bottom: 20),
-              padding: const EdgeInsets.only(top: 15, left: 15, right: 15, bottom: 15),
+              padding: const EdgeInsets.all(15.0),
               decoration: BoxDecoration(
                 color: const Color(0xFF01C7B1),
                 borderRadius: BorderRadius.circular(8),
