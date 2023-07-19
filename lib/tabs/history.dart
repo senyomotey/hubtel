@@ -401,11 +401,6 @@ class HistoryTabState extends State<HistoryTab> {
                                     ),
                                   ),
                                 ),
-                                Image.asset(
-                                  'assets/favorite.png',
-                                  height: 28,
-                                  width: 28,
-                                ),
                               ],
                             ),
                           ],
